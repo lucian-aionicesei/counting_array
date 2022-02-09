@@ -18,7 +18,7 @@ function loop() {
         countingArray.pop(-1);
     }
 
-    if ( i < 15) {
+    if ( i < Infinity) {
         setTimeout(function () {
             i++
             loop();
